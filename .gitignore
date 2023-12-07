@@ -4,4 +4,5 @@
 /Contacts (Java)/First contact/
 /Contacts (Java)/Searching/
 /Contacts (Java)/Upgrade your contacts/
-*.yaml
+*.yml
+*.xml
