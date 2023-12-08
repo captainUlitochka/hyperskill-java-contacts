@@ -1,19 +1,19 @@
 package contacts;
 
 public enum Messages {
-    COMMAND_LIST("Enter action (add, remove, edit, count, list, exit): "),
+    COMMAND_LIST("Enter action (add, remove, edit, count, list, exit): \n"),
     RECORDS_COUNT("The Phone Book has %d records.%n"),
-    ENTER_NAME("Enter the name of the person:"),
-    ENTER_SURNAME("Enter the surname of the person:"),
-    ENTER_NUMBER("Enter the number:"),
-    RECORD_SUCCESS("The record %s."),
-    NOTHING_TO_DO("No records to %s"),
-    INVALID_DATA("Invalid %s"),
-    INVALID_CMD("Invalid command!"),
-    NO_NUMBER("[no number]"),
-    WRONG_FORMAT("Wrong number format!"),
-    SELECT_RECORD("Select a record: "),
-    SELECT_FIELD("Select a field (name, surname, number): "),
+    ENTER_NAME("Enter the name of the person:\n"),
+    ENTER_SURNAME("Enter the surname of the person:\n"),
+    ENTER_NUMBER("Enter the number:\n"),
+    RECORD_SUCCESS("The record %s!%n"),
+    NOTHING_TO_DO("No records to %s%n"),
+    INVALID_DATA("Invalid %s%n"),
+    INVALID_CMD("Invalid command!\n"),
+    NO_NUMBER("[no number]\n"),
+    WRONG_FORMAT("Wrong number format!\n"),
+    SELECT_RECORD("Select a record: \n"),
+    SELECT_FIELD("Select a field (name, surname, number): \n"),
     RECORD("%d. %s %s, %s%n");
 
     private final String message;
